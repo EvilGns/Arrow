@@ -424,13 +424,13 @@ section .title::after{
 	width: 50%;
 }
 
-/*Badges Section*/
+/*Packages Section*/
 
 .packages .title::after{
 	content: "Certificates";
 }
 .packages .carousel .card{
-	background: #222;
+	background: #1c1c35;
 	border-radius: 6px;
 	padding: 25px 35px;
 	text-align: center;
@@ -463,8 +463,8 @@ section .title::after{
 }
 
 .packages .carousel .card img{
-	height: 150px;
-	width: 150px;
+	height: 350px;
+	width: 220px;
 	object-fit: cover;
 
 }
