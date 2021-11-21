@@ -424,6 +424,46 @@ section .title::after{
 	width: 50%;
 }
 
+
+
+
+/*Customer Section*/
+
+
+@keyframes scroll{
+	0%{
+		transform: translate(0);
+	}
+	100%{
+		transform: translate(calc(-250px*7));
+	}
+}
+
+.customer .slider .slider-track .slide img{
+	height: 250px;
+	width: 250px;
+}
+
+.slider{
+	height: 250px;
+	margin: auto;
+	overflow: hidden;
+	position: relative;
+	width: auto;
+}
+.slider .slider-track{
+	animation: scroll 40s linear infinite;
+	display: flex;
+	width: calc(250px * 14);
+}
+
+.slider .slide{
+	height: 250px;
+	width: 250px;
+
+}
+
+
 /*Packages Section*/
 
 .packages .title::after{
@@ -592,6 +632,18 @@ section .title::after{
 .right form .button-area button:hover{
   color:#07bd8c;
   background: none;
+}
+
+.drop-down, #Package{
+	background-color: #fff;
+	font-family: 'Poppins', sans-serif;
+	padding-top: 5px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	border-color: #b3b3b3;
+	color: grey;
+	
 }
 
 /*Footer Section*/
